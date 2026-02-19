@@ -19,6 +19,15 @@
     /* display:inline-block; */
     /* display: none; */
 }
+.box-2{
+    padding: 50px;
+    /* margin: 50px; */
+    width: 400px;
+    height:300px;
+    background-color: antiquewhite;
+    /* display:inline-block; */
+    /* display: none; */
+}
 .boxes{
     display: flex;
     gap:50px;
@@ -68,4 +77,23 @@ b{
 }
 .bg-center{
     background-position: 25% 75%;
+}
+.bg-img1{
+    background-image: url(/images/pizza.png);
+}
+.cover{
+    background-size: cover;
+    background-position: center;
+}
+.contain{
+    background-size: fill;
+}
+.big-bg{
+    background-image: url(/images/1shazmyn-ali-sm.jpg);
+}
+.white-bg{
+    background-color: #FFFFFF;
+}
+.fixed{
+    background-attachment: fixed;
 }

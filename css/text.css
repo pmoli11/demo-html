@@ -1,0 +1,25 @@
+body{
+      font-size: 60px;
+    }
+    p{
+      font-family: 'Sriracha', cursive;
+    }
+    .one{
+     font-family: "Just Believe", serif;
+    }
+    .two{
+      font-family: "Peach Cake", sans-serif;
+    }
+    .three{
+    font-family: "New Romantics", serif;
+    }
+    .four{
+    font-family: "Doctor Glitch", sans-serif;
+    }
+    .five{
+    font-family: "Lemon milk", serif;
+    font-weight: bold;
+    }
+    .six{
+    font-family: "alarm clock", sans-serif;
+    }
