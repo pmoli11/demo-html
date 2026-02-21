@@ -1,6 +1,26 @@
+/* FONTS */
+/* font-family: "Nunito", sans-serif; */
+/* font-family: "Slabo 27px", serif; */
+
 *{
     box-sizing: border-box;
     border: solid 1px black;
+}
+body{
+   font-family: "Nunito", sans-serif; 
+   font-weight: 900;
+}
+h1, h2, h3, h4, h5, h6{
+   font-family: "Slabo 27px", serif; 
+}
+h2{
+    font-size:3rem;
+    color:#3696cd;
+}
+h1{
+    text-align:center;
+    text-decoration:none;
+    text-transform: lowercase;
 }
 .box{
     border: solid 1px black;
@@ -11,6 +31,7 @@
     display:inline-block;
     vertical-align: top;
 }
+
 .box-1{
     padding: 50px;
     /* margin: 50px; */
@@ -96,4 +117,16 @@ b{
 }
 .fixed{
     background-attachment: fixed;
+}
+/* Hover sections */
+.box.hex:hover{
+    background-color:red;
+}
+.box.rgb:hover{
+    background-image: url(/images/pizza-plate.jpg);
+    background-size: contain;
+}
+.box.hsl:hover{
+    transform: rotate(45deg);
+    background-color:rgb(0, 242, 255);
 }
